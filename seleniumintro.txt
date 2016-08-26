@@ -1,0 +1,22 @@
+Selenium  ----------------> Functional Automation testing tool
+
+Selenium supports multiple browsers like Firefox(Default), Chrome, Safari,Opera, Ie etc
+Selenim supports multiple operating systems like Windows, Mac, Unix/Linux etc..
+Selenium supports multiple launguages like C#,Java Script, Perl, Python, Ruby Etc....
+
+Cross browser testing, cross plotform testing, Distributive testing
+Grid 
+
+Selenium contains 4 Components
+
+selenium IDE
+selenium Rc
+selenium Webdriver
+Grid 2
+
+
+selnium IDE -------------------> Recording and playback
+
+				Firefox, can not launch Browser or application  
+
+seleniese-----

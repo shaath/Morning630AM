@@ -1,0 +1,13 @@
+package com.orgHRM.testNG;
+
+import org.testng.annotations.Test;
+
+public class basicAnnotations 
+{
+	@Test 
+	public void function1()
+	{
+		System.out.println("This is Test1");
+	}
+
+}

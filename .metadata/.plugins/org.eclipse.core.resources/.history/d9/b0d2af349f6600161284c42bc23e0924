@@ -1,0 +1,30 @@
+package com.orgHRM.Tests;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class xlops 
+{
+
+	public static void main(String[] args) throws IOException 
+	{
+		String xlpath="F:\\morning630AM\\weekend\\src\\com\\orgHRM\\Testdata\\Teestdata.xlsx";
+		FileInputStream fi=new FileInputStream(xlpath);
+		
+		XSSFWorkbook wb=new XSSFWorkbook(fi);
+		XSSFSheet ws=wb.getSheet("Sheet1");
+		XSSFRow r=ws.getRow(5);
+		XSSFCell c=r.getCell(0);
+		System.out.println(c.getStringCellValue());
+		
+
+	}
+	
+
+}
